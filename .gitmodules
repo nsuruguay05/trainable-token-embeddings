@@ -1,0 +1,6 @@
+[submodule "experiments/memory_token"]
+	path = experiments/memory_token
+	url = https://github.com/nsuruguay05/memory_token.git
+[submodule "experiments/concept_tokens"]
+	path = experiments/concept_tokens
+	url = https://github.com/nsuruguay05/concept_tokens.git
