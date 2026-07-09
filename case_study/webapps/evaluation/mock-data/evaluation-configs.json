@@ -1,0 +1,44 @@
+{
+  "assignments": [
+    {
+      "id": "cfg_recasting_factoid_grounded",
+      "label": "Recasting + Factoid + Grounded",
+      "configuration": {
+        "story": "Lola y Martin estan preparando una feria de ciencias en la escuela. Tienen que decidir que experimento mostrar, como repartir tareas y cuando ensayar la presentacion.",
+        "trigger_message": "Start a tutoring conversation about the story. Ask one short opening question in English.",
+        "correction_style": "recasting",
+        "question_type": "factoid",
+        "grounded": "grounded"
+      }
+    },
+    {
+      "id": "cfg_explicit_non_factoid",
+      "label": "Explicit + Non-factoid",
+      "configuration": {
+        "story": "Ana esta pensando como organizar su fin de semana entre estudiar, visitar a su abuela y salir con amistades.",
+        "trigger_message": "Start a tutoring conversation about planning the weekend. Ask one open question in English.",
+        "correction_style": "explicit",
+        "question_type": "non_factoid"
+      }
+    },
+    {
+      "id": "cfg_factoid_only",
+      "label": "Factoid only",
+      "configuration": {
+        "story": "Sofia perdio el omnibus y llego tarde a clase. Ahora tiene que explicarle a su profesor lo que paso.",
+        "trigger_message": "Start a tutoring conversation in English with a concrete question about the story.",
+        "question_type": "factoid"
+      }
+    },
+    {
+      "id": "cfg_no_correction_grounded",
+      "label": "No correction + Grounded",
+      "configuration": {
+        "story": "Diego y Camila estan leyendo una historia sobre un viaje al mar y conversan sobre lo que hicieron los personajes.",
+        "trigger_message": "Start a tutoring conversation in English focused on the story details.",
+        "correction_style": "no_correction",
+        "grounded": "grounded"
+      }
+    }
+  ]
+}

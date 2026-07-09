@@ -1,0 +1,6 @@
+accelerate
+bitsandbytes
+flask
+flask-cors
+torch
+transformers

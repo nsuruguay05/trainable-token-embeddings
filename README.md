@@ -10,6 +10,7 @@ The experiment directories are git submodules that point to the paper-specific r
 
 - `experiments/memory_token`: [nsuruguay05/memory_token](https://github.com/nsuruguay05/memory_token)
 - `experiments/concept_tokens`: [nsuruguay05/concept_tokens](https://github.com/nsuruguay05/concept_tokens)
+- `case_study`: server, trained concept tokens, and webapps for the thesis case study.
 
 ## Cloning
 
@@ -39,3 +40,13 @@ This part studies the case where one learned embedding is optimized to make a fr
 Implementation for **Concept Tokens: Learning Behavioral Embeddings Through Concept Definitions**.
 
 This part studies tokens trained from definitional corpora to steer behavior, and tokens trained over entity articles to represent entity-level knowledge. See [`experiments/concept_tokens`](experiments/concept_tokens) for setup, data, embeddings, and evaluation scripts.
+
+### Case Study
+
+Code for the configurable English teaching chatbot described in the thesis case study. It includes:
+
+- `case_study/server`: Flask server that loads the trained Concept Token embeddings.
+- `case_study/webapps/playground`: app for manually testing configurations and prompt variants.
+- `case_study/webapps/evaluation`: app for the human evaluation workflow.
+
+See [`case_study`](case_study) for setup instructions.
